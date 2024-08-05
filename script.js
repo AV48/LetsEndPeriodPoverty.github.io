@@ -33,7 +33,7 @@ function displayMessage() {
   var location = document.getElementById("location").value; 
   var reason = document.getElementById("reason").value;
   message.innerHTML = 
-    "Hello " + recipient + ", my name is " + name + ". I " +
+    "Hello " + recipient + ", my name is " + name + ", and I am from " + location + ". I " +
     "wanted to reach out to you regarding making policies that reduce taxes " +
     "on period products and provide period products in public places to help reduce " +
     "period poverty. This is a vital thing to do because " + reason + ". " +
